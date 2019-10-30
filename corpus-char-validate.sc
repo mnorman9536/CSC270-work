@@ -8,7 +8,7 @@ import scala.annotation.tailrec
 :load utilities.sc
 
 // Edit the following to load *your* text!
-val lib: CiteLibrary = loadLibrary("text/arist_politics.cex")
+val lib: CiteLibrary = loadLibrary("text/lesMiserables_joint.cex")
 
 val tr: TextRepository = lib.textRepository.get
 
@@ -57,6 +57,7 @@ val charListString: String = charList.map( c => s"'${c}'").mkString(" ") // the 
 /* Character validation */
 
 // Make a vector of legit characters. Make it the easy way!
+//Can we just use a range of unicode values, convert them to characters, and put into a Vector
 val goodChars: Vector[Char] = """ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890—abcdefghijklmnopqurstuvwxyz.,? """.toVector
 
 
@@ -69,7 +70,7 @@ val badCharsInText: Vector[Char] = charList.diff(goodChars)
 
 
 
-/* 
+/*
 		We can make one Corpus out of another… we could make a Corpus of only the
 		invalid characters…
 */
@@ -92,7 +93,7 @@ val badCharCorpus: Corpus = {
 	Corpus(boiledDown)
 }
 
-/* 
+/*
 
 		- Type 'badCharsInText' or 'showMe(badCharCorpus)' to see the result.
 		- Look at what is getting flagged as a "bad" character.
@@ -105,22 +106,22 @@ val badCharCorpus: Corpus = {
 */
 
 
-/*	 
+/*
 		 Given a Char, return a String that gives its info.
 		 Bonus: When reporting characters, replace invisibles with their names…
 		 ( This is the first time you've seen the 'match' construction )
 */
 def reportChar( c: Char ): String = {
 	c match {
-		case ' ' => s"`space` (${c.toHexString})" 
-		case '\r' => s"`return` (${c.toHexString})" 
-		case '\t' => s"`tab` (${c.toHexString})" 
+		case ' ' => s"`space` (${c.toHexString})"
+		case '\r' => s"`return` (${c.toHexString})"
+		case '\t' => s"`tab` (${c.toHexString})"
 		case _ => s"`${c}` (${c.toHexString})"
 	}
 }
 
 
-/* 
+/*
 		A custom Function that takes a String of characters and a 'width',
 		and returns a Markdown-formatted table, 'width'-columns wide.
 		Run this script and look at the file charTable.md to see the output.
