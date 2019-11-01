@@ -8,7 +8,7 @@ import scala.annotation.tailrec
 :load utilities.sc
 
 // Edit the following to load *your* text!
-val lib: CiteLibrary = loadLibrary("text/lesMiserables_joint.cex")
+val lib: CiteLibrary = loadLibrary("text/lesMiserables_eng.cex")
 
 val tr: TextRepository = lib.textRepository.get
 
@@ -58,7 +58,7 @@ val charListString: String = charList.map( c => s"'${c}'").mkString(" ") // the 
 
 // Make a vector of legit characters. Make it the easy way!
 //Can we just use a range of unicode values, convert them to characters, and put into a Vector
-val goodChars: Vector[Char] = """ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890—abcdefghijklmnopqurstuvwxyz.,? """.toVector
+val goodChars: Vector[Char] = """ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890—abcdefghijklmnopqurstuvwxyz.,? éèÉêÈÀàâçüô|ïùûë+ÀÈÇñÜ½""".toVector
 
 
 // Find the bad characters by doing .diff on two Vectors
