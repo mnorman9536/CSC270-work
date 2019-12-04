@@ -14,8 +14,13 @@ object demo {
 		i + 1
 	}
 
-	def addOne ( s: String ): String = {
-		s"${s} + 1"	
+	def addOne(i:Double):Double = {
+		i + 1
 	}
+
+	def addOne ( s: String ): String = {
+		s"${s} + 1"
+	}
+
 
 }

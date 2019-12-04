@@ -42,7 +42,7 @@ val nGrams: Vector[ (String, Int) ] = {
 }
 
 val filteredNGrams: Vector[ (String, Int) ] = {
-		nGrams.filter( _._2 >= 2 )	
+		nGrams.filter( _._2 >= 2 )
 }
 
 showMe(nGrams)

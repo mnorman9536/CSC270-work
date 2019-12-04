@@ -27,7 +27,7 @@ def badSum( n: Long) : Long = {
 def goodSum(n: Long): Long = {
 	@tailrec 
 	def sumTailRec(runningTotal: Long, n: Long): Long = {
-		if (n == 0) runningTotal 
+		if (n == 0) runningTotal
 		else sumTailRec(n + runningTotal, n - 1)
 	}
 	sumTailRec(0, n)
@@ -47,7 +47,7 @@ def bestFact(i: Int): BigInt = {
 	val vbi: Vector[BigInt] = vi.map( BigInt(_) )
 	// Now we can do a factorial…
 	vbi.reduceLeft( _ * _ )
-}	
+}
 
 // Sum
 def bestSum(i: Int): BigInt = {

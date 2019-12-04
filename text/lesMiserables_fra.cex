@@ -1,13 +1,3 @@
-// A file for testing CiteApp
-
-#!cexversion
-3.0
-
-#!citelibrary
-name#demo
-urn#urn:cite2:cex:citeApp.2019a:hugo2
-license#This work is in the public domain.
-
 #!ctscatalog
 urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
 urn:cts:fuLit:hugo.lesmis.1862:#volume/book/chapter/paragraph#Victor Hugo#Les Misérables#Edition of 1862##true#fra
@@ -7479,11 +7469,11 @@ urn:cts:fuLit:hugo.lesmis.1862:3.8.22.29#--Aux Madelonnettes.
 urn:cts:fuLit:hugo.lesmis.1862:3.8.22.30#L'enfant se gratta le derrière de l'oreille, regarda mame Burgon, et dit:
 urn:cts:fuLit:hugo.lesmis.1862:3.8.22.31#--Ah!
 urn:cts:fuLit:hugo.lesmis.1862:3.8.22.32#Puis il pirouetta sur ses talons, et, un moment après, la vieille restée sur le pas de la porte l'entendit qui chantait de sa voix claire et jeune en s'enfonçant sous les ormes noirs frissonnant au vent d'hiver:
-urn:cts:fuLit:hugo.lesmis.1862:3.8.22.33#_Le roi Coupdesabot_ 
-urn:cts:fuLit:hugo.lesmis.1862:3.8.22.34#_S'en allait à la chasse,_ 
-urn:cts:fuLit:hugo.lesmis.1862:3.8.22.35#_À la chasse aux corbeaux,_ 
-urn:cts:fuLit:hugo.lesmis.1862:3.8.22.36#_Monté sur des échasses._ 
-urn:cts:fuLit:hugo.lesmis.1862:3.8.22.37#_Quand on passait dessous_ 
+urn:cts:fuLit:hugo.lesmis.1862:3.8.22.33#_Le roi Coupdesabot_
+urn:cts:fuLit:hugo.lesmis.1862:3.8.22.34#_S'en allait à la chasse,_
+urn:cts:fuLit:hugo.lesmis.1862:3.8.22.35#_À la chasse aux corbeaux,_
+urn:cts:fuLit:hugo.lesmis.1862:3.8.22.36#_Monté sur des échasses._
+urn:cts:fuLit:hugo.lesmis.1862:3.8.22.37#_Quand on passait dessous_
 urn:cts:fuLit:hugo.lesmis.1862:3.8.22.38#_On lui payait deux sous._
 urn:cts:fuLit:hugo.lesmis.1862:﻿4.0.0.head#Tome IV--L'IDYLLE RUE PLUMET ET L'ÉPOPÉE RUE SAINT-DENIS (1862)
 urn:cts:fuLit:hugo.lesmis.1862:4.1.0.head#Livre premier--Quelques pages d'histoire
@@ -10718,25 +10708,25 @@ urn:cts:fuLit:hugo.lesmis.1862:4.15.4.70#Là-dessus, il reprit sa course.
 urn:cts:fuLit:hugo.lesmis.1862:4.15.4.71#Et tout en courant:
 urn:cts:fuLit:hugo.lesmis.1862:4.15.4.72#--Ah çà, où en étais-je donc? dit-il.
 urn:cts:fuLit:hugo.lesmis.1862:4.15.4.73#Il se remit à chanter sa chanson en s'enfonçant rapidement dans les rues, et ceci décrut dans les ténèbres:
-urn:cts:fuLit:hugo.lesmis.1862:4.15.4.74#_Mais il reste encor des bastilles,_ 
-urn:cts:fuLit:hugo.lesmis.1862:4.15.4.75#_Et je vais mettre le holà_ 
+urn:cts:fuLit:hugo.lesmis.1862:4.15.4.74#_Mais il reste encor des bastilles,_
+urn:cts:fuLit:hugo.lesmis.1862:4.15.4.75#_Et je vais mettre le holà_
 urn:cts:fuLit:hugo.lesmis.1862:4.15.4.76#_Dans l'ordre public que voilà._
-urn:cts:fuLit:hugo.lesmis.1862:4.15.4.77#_Où vont les belles filles,_ 
+urn:cts:fuLit:hugo.lesmis.1862:4.15.4.77#_Où vont les belles filles,_
 urn:cts:fuLit:hugo.lesmis.1862:4.15.4.78#_Lon la._
-urn:cts:fuLit:hugo.lesmis.1862:4.15.4.79#_Quelqu'un veut-il jouer aux quilles?_ 
-urn:cts:fuLit:hugo.lesmis.1862:4.15.4.80#_Tout l'ancien monde s'écroula_ 
+urn:cts:fuLit:hugo.lesmis.1862:4.15.4.79#_Quelqu'un veut-il jouer aux quilles?_
+urn:cts:fuLit:hugo.lesmis.1862:4.15.4.80#_Tout l'ancien monde s'écroula_
 urn:cts:fuLit:hugo.lesmis.1862:4.15.4.81#_Quand la grosse boule roula._
-urn:cts:fuLit:hugo.lesmis.1862:4.15.4.82#_Où vont les belles filles,_ 
+urn:cts:fuLit:hugo.lesmis.1862:4.15.4.82#_Où vont les belles filles,_
 urn:cts:fuLit:hugo.lesmis.1862:4.15.4.83#_Lon la._
-urn:cts:fuLit:hugo.lesmis.1862:4.15.4.84#_Vieux bon peuple, à coups de béquilles_ 
-urn:cts:fuLit:hugo.lesmis.1862:4.15.4.85#_Cassons ce Louvre où s'étala_ 
+urn:cts:fuLit:hugo.lesmis.1862:4.15.4.84#_Vieux bon peuple, à coups de béquilles_
+urn:cts:fuLit:hugo.lesmis.1862:4.15.4.85#_Cassons ce Louvre où s'étala_
 urn:cts:fuLit:hugo.lesmis.1862:4.15.4.86#_La monarchie en falbala._
-urn:cts:fuLit:hugo.lesmis.1862:4.15.4.87#_Où vont les belles filles,_ 
+urn:cts:fuLit:hugo.lesmis.1862:4.15.4.87#_Où vont les belles filles,_
 urn:cts:fuLit:hugo.lesmis.1862:4.15.4.88#_Lon la._
-urn:cts:fuLit:hugo.lesmis.1862:4.15.4.89#_Nous en avons forcé les grilles;_ 
-urn:cts:fuLit:hugo.lesmis.1862:4.15.4.90#_Le roi Charles Dix ce jour-là_ 
+urn:cts:fuLit:hugo.lesmis.1862:4.15.4.89#_Nous en avons forcé les grilles;_
+urn:cts:fuLit:hugo.lesmis.1862:4.15.4.90#_Le roi Charles Dix ce jour-là_
 urn:cts:fuLit:hugo.lesmis.1862:4.15.4.91#_Tenait mal et se décolla._
-urn:cts:fuLit:hugo.lesmis.1862:4.15.4.92#_Où vont les belles filles,_ 
+urn:cts:fuLit:hugo.lesmis.1862:4.15.4.92#_Où vont les belles filles,_
 urn:cts:fuLit:hugo.lesmis.1862:4.15.4.93#_Lon la._
 urn:cts:fuLit:hugo.lesmis.1862:4.15.4.94#La prise d'armes du poste ne fut point sans résultat. La charrette fut conquise, l'ivrogne fut fait prisonnier. L'une fut mise en fourrière; l'autre fut plus tard un peu poursuivi devant les conseils de guerre comme complice. Le ministère public d'alors fit preuve en cette circonstance de son zèle infatigable pour la défense de la société.
 urn:cts:fuLit:hugo.lesmis.1862:4.15.4.95#L'aventure de Gavroche, restée dans la tradition du quartier du Temple, est un des souvenirs les plus terribles des vieux bourgeois du Marais, et est intitulée dans leur mémoire: Attaque nocturne du poste de l'Imprimerie royale.
@@ -13272,7 +13262,7 @@ urn:cts:fuLit:hugo.lesmis.1862:5.9.6.1#Il y a, au cimetière du Père-Lachaise, 
 urn:cts:fuLit:hugo.lesmis.1862:5.9.6.2#Cette pierre est toute nue. On n'a songé en la taillant qu'au nécessaire de la tombe, et l'on n'a pris d'autre soin que de faire cette pierre assez longue et assez étroite pour couvrir un homme.
 urn:cts:fuLit:hugo.lesmis.1862:5.9.6.3#On n'y lit aucun nom.
 urn:cts:fuLit:hugo.lesmis.1862:5.9.6.4#Seulement, voilà de cela bien des années déjà, une main y a écrit au crayon ces quatre vers qui sont devenus peu à peu illisibles sous la pluie et la poussière, et qui probablement sont aujourd'hui effacés:
-urn:cts:fuLit:hugo.lesmis.1862:5.9.6.5#_Il dort. Quoique le sort fût pour lui bien étrange,_ 
-urn:cts:fuLit:hugo.lesmis.1862:5.9.6.6#_Il vivait. Il mourut quand il n'eut plus son ange,_ 
-urn:cts:fuLit:hugo.lesmis.1862:5.9.6.7#_La chose simplement d'elle-même arriva,_ 
+urn:cts:fuLit:hugo.lesmis.1862:5.9.6.5#_Il dort. Quoique le sort fût pour lui bien étrange,_
+urn:cts:fuLit:hugo.lesmis.1862:5.9.6.6#_Il vivait. Il mourut quand il n'eut plus son ange,_
+urn:cts:fuLit:hugo.lesmis.1862:5.9.6.7#_La chose simplement d'elle-même arriva,_
 urn:cts:fuLit:hugo.lesmis.1862:5.9.6.8#_Comme la nuit se fait lorsque le jour s'en va._
