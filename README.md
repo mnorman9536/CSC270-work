@@ -156,4 +156,4 @@ Ngrams are recurring patterns of n words. This repository contains a Scala scrip
 This analysis can be executed by running any of the ```scripts/ngrams_.sc``` files in the ```$ sbt console```.
 
 # Acknowledgments
-Special thanks to Dr. Christopher Blackwell for writing many of the scripts and for providing many of the libraries used throughout our project. Additionally I would like to thank Will Blackwell for assisting with debugging and for his assistance with character validation.
+Special thanks to Dr. Christopher Blackwell for writing many of the scripts and for providing many of the libraries used throughout our project. Additionally I would like to thank Will Blackwell for assisting with debugging and for his help with character validation.
