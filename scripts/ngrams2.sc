@@ -194,6 +194,17 @@ def takePercent( histo: Vector[(String, Int)], targetPercent: Int): Vector[(Stri
 val ngt = makeNGramTuples(3, noPuncCorpus)
 val ngh = makeNGramHisto(ngt)
 
-showMe(ngh)
+//length of patter, filter size, corpus
+def ngrams(n:Int, f: Int = 5, c:Corpus = noPuncCorpus): Vector[(String,Int)]={
+	val ngt = makeNGramTuples(n), c)
+	val ngh = makeNGramHisto(ngt,f)
+	showMe(ngh.reverse)
+	ngh
+}
 
-val anExcellentCitizen: Set[CtsUrn] = urnsForNGram("an excellent citizen", ngt)
+
+
+
+//showMe(ngh)
+
+//val anExcellentCitizen: Set[CtsUrn] = urnsForNGram("an excellent citizen", ngt)
