@@ -1,5 +1,37 @@
-# CSC270-work
-Repository for CSC270 Computational Humanities with Dr. Blackwell.
+# *Les Misérables* by Victor Hugo
+A citable digital edition.
+
+###Bibliography
+***
+*Les Misérables*, by Victor Hugo.  Published by Thomas Y. Crowell & Co. in New York in 1887 and translated by Isabel F. Hapgood in 2008.
+
+Victor Hugo was a 19th century French poet and novelist and is one of the best known French writers. Some of his most famous works are *Les Misérables* and *The Hunchback of Notre-Dame* with the former being one of the most renowned works of the 19th century.
+
+
+A plain-text citable edition inteded for machine-processing has been validated and is available in ```text/lesMiserables_eng.cex```. A human readable website generated from the ```.cex``` file is located in ```html/```. The scripts that generated the site are located in ```/src/main/scala/```.
+
+This version of this text is [in the Public Domain](http://creativecommons.org/publicdomain/zero/1.0/):
+
+![license](http://i.creativecommons.org/p/zero/1.0/88x31.png)
+
+Last edited 12-16-19.
+###Running Scripts for Validation and Analysis
+***
+This repository is an SBT project for running Scala code.
+
+######Requirements
+ + A Java JDK 1.8 or higher
+ + [SBT](https://www.scala-sbt.org) installed and on PATH
+
+######Running
+ + Clone this repository.
+ + Navigate to the root.
+ + ```$sbt console```
+ + ```scala> :load scripts/character-validation.sc```
+ + etc.
+
+#### List of characters found in Les Misérables ordered by the number of appearances.
+***
 
 |Character                                                                           |Unicode|Appearances|
 |------------------------------------------------------------------------------------|------|--------|
@@ -111,3 +143,14 @@ Repository for CSC270 Computational Humanities with Dr. Blackwell.
 |…                                                                                   | 2026 | 1      |
 |Ü                                                                                   | dc   | 1      |
 |½                                                                                   | bd   | 1      |
+
+Confirm validation using: ```$ sbt console
+scala> :load scripts/character-validation.sc```
+This will generate the ```charTable.md```
+
+***
+
+######Ngram Analysis
+Ngrams are recurring patterns of n words. This repository contains a Scala script showing how ngram analysis can work with the [CITE Architecture](http://cite-architecture.org).
+
+This analysis can be executed by running any of the ```scripts/ngrams_.sc``` files in the ```$ sbt console```.
