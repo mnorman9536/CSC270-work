@@ -154,3 +154,6 @@ This will generate the ```charTable.md```
 Ngrams are recurring patterns of n words. This repository contains a Scala script showing how ngram analysis can work with the [CITE Architecture](http://cite-architecture.org).
 
 This analysis can be executed by running any of the ```scripts/ngrams_.sc``` files in the ```$ sbt console```.
+
+# Acknowledgments
+Special thanks to Dr. Christopher Blackwell for writing many of the scripts and for providing many of the libraries used throughout our project. Additionally I would like to thank Will Blackwell for assisting with debugging and for his assistance with character validation.
